@@ -3,6 +3,9 @@
 console.py
 HBNBCommand(cmd.Cmd) Class
 """
+
+
+
 import cmd
 import os.path
 from models.base_model import BaseModel
@@ -13,6 +16,7 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 from models import storage
+
 
 
 class HBNBCommand(cmd.Cmd):
